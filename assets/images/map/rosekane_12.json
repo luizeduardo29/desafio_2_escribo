@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"rosekane_12.png",
+ "imageheight":20,
+ "imagewidth":20,
+ "margin":0,
+ "name":"rosekane_12",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.9.1",
+ "tileheight":20,
+ "tilewidth":20,
+ "type":"tileset",
+ "version":"1.8"
+}
