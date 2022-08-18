@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
           keyboardDirectionalType: KeyboardDirectionalType.wasdAndArrows,
         ),
       ),
-      showCollisionArea: true,
+      showCollisionArea: false,
       components: [EnemyNpc(), SpecialObject()],
       cameraConfig: CameraConfig(moveOnlyMapArea: true),
     );
