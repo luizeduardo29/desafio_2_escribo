@@ -1,16 +1,17 @@
-# game_maze
+# Processo Seletivo Escribo - Desafio 2
+## Descrição
 
-A new Flutter project.
+Jogo desenvolvido na intenção de copiar o estilo do Pacman
 
-## Getting Started
+O projeto foi desenvolvido em Dart e Bonfire.
+O mapa foi criado no Tiled.
 
-This project is a starting point for a Flutter application.
+## Instruções para iniciar o projeto
 
-A few resources to get you started if this is your first Flutter project:
+> Instalar o Dart na máquina (caso ja tenha instalado pule essa etapa)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Abra o arquivo main.dart e coloque para rodar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instruções para jogar o jogo
+
+> Movimentação do personagem principal é pelas setas ou W, S, A e D
