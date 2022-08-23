@@ -5,6 +5,8 @@ import 'package:game_maze/player/pacman_player.dart';
 
 import 'object/special_Item.dart';
 
+const double tileSize = 32;
+
 void main() {
   runApp(const MyApp());
 }
@@ -32,7 +34,8 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BonfireTiledWidget(
       map: TiledWorldMap(
-        'map/mapa.json',
+        'map/map.json',
+        forceTileSize: const Size(tileSize, tileSize),
       ),
       player: PacmanPlayer(),
       joystick: Joystick(
@@ -40,8 +43,8 @@ class MyHomePage extends StatelessWidget {
           keyboardDirectionalType: KeyboardDirectionalType.wasdAndArrows,
         ),
       ),
-      showCollisionArea: false,
-      components: [EnemyNpc(), SpecialObject()],
+      showCollisionArea: true,
+      components: [EnemyNpc()],
       cameraConfig: CameraConfig(moveOnlyMapArea: true),
     );
   }

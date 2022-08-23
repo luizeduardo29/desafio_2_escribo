@@ -1,16 +1,17 @@
 import 'package:bonfire/bonfire.dart';
 import 'package:game_maze/enemy/enemy_sprite.dart';
+import 'package:game_maze/main.dart';
 
 class EnemyNpc extends SimpleEnemy with ObjectCollision {
   EnemyNpc()
       : super(
           position: Vector2(
-            20 * 10,
-            20 * 13,
+            tileSize * 10,
+            tileSize * 13,
           ),
           size: Vector2(
-            20,
-            20,
+            tileSize,
+            tileSize,
           ),
           speed: 50,
           animation: SimpleDirectionAnimation(
